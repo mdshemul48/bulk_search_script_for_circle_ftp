@@ -67,4 +67,15 @@ https://www.python.org/
 
 During installation click, add python to the path. This is an essential part of python installation.
 
-![ScreenShot](https://raw.githubusercontent.com/mdshemul48/bulk_search_script_for_circle_ftp/main/screenshot/add_Python_to_Path.png)
+![ScreenShot](screenshot/add_Python_to_Path.png)
+
+### 3rd step
+
+After extracting, open extracted folder and click in the place of the folder path. Type `cmd` and press `Enter`.
+
+![ScreenShot](screenshot/1623438770968.png)
+
+In that same cmd prompt, type `pip install -r requirement.txt` and hit `Enter`. Then wait for the completion.
+![ScreenShot](screenshot/install.png)
+
+Installation is done.
