@@ -71,7 +71,7 @@ Click this link below and download python from the official website.
 
 https://www.python.org/
 
-During installation click,` add python to the path`. This is an essential part of python installation.
+During installation click,`add python to path`. This is an essential part of python installation.
 
 ![ScreenShot](screenshot/add_Python_to_Path.png)
 
