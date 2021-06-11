@@ -40,8 +40,8 @@ Movie: Go Goa Gone 2013 1080p Gplay WEB-DL DDP 5.1 x264 already exist in the ser
 Movie: What.the.Fish.2013.1080p.NF.WEB-DL.DDP5.1.H.264 not Found in the server..
 +---------
 |
-+---What The Fish (2014)
-| \---http://circleftp.net/cn/what-the-fish-2014/
++---What The Fish (2013)
+| \---http://circleftp.net/cn/what-the-fish-2013/
 |
 +---The Spy (TV Mini-Series 2019)
 | \---http://circleftp.net/cn/the-spy-tv-mini-series-2019/
@@ -60,6 +60,8 @@ Movie: What.the.Fish.2013.1080p.NF.WEB-DL.DDP5.1.H.264 not Found in the server..
 
 ### Installation and setup.
 
+#### 1st step.
+
 First of all, you have to install python.
 Click this link below and download python from the official website.
 
@@ -69,13 +71,22 @@ During installation click, add python to the path. This is an essential part of 
 
 ![ScreenShot](screenshot/add_Python_to_Path.png)
 
-### 3rd step
+#### 2nd step.
+
+Download this entire git repo by clicking `code > Download Zip`.
+
+![ScreenShot](screenshot/download.png)
+
+After download complete. Extract the file.
+
+#### 3rd step
 
 After extracting, open extracted folder and click in the place of the folder path. Type `cmd` and press `Enter`.
 
 ![ScreenShot](screenshot/1623438770968.png)
 
 In that same cmd prompt, type `pip install -r requirement.txt` and hit `Enter`. Then wait for the completion.
+
 ![ScreenShot](screenshot/install.png)
 
-Installation is done.
+Installation is done!
