@@ -89,7 +89,7 @@ After extracting, open extracted folder and click in the place of the folder pat
 
 ![ScreenShot](screenshot/1623438770968.png)
 
-In that same cmd prompt, type `pip install -r requirements.txt` and hit `Enter`. Then wait for the completion.
+In that cmd prompt, type `pip install -r requirements.txt` and hit `Enter`. Then wait for the completion.
 
 ![ScreenShot](screenshot/install.png)
 
