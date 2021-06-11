@@ -2,15 +2,19 @@ This script only useable for circle network users. It will search movies in bulk
 
 Then this script will search all those movies in circleftp.net and the script will give you another text file back with all search result and does it exist on circleftp or not confirmation.
 
-### Example.
+## Example.
 
 In `input.txt`, you added some movie's name and year. Then script will return you the search result of those movies.
 
 in `input.txt`
 
 ```
-Go Goa Gone 2013 1080p Gplay WEB-DL DDP 5.1 x264 What.the.Fish.2013.1080p.NF.WEB-DL.DDP5.1.H.264
+Go Goa Gone 2013 1080p Gplay WEB-DL DDP 5.1 x264
+
+What.the.Fish.2013.1080p.NF.WEB-DL.DDP5.1.H.264
+
 Delhi Belly 2011 1080p NF WEB-DL x264 AVC Dual Audio [Hindi DD 5.1 + English DDP 5.1] ESubs
+
 Say Salaam India 2007
 ```
 
@@ -58,7 +62,7 @@ Movie: What.the.Fish.2013.1080p.NF.WEB-DL.DDP5.1.H.264 not Found in the server..
 |
 ```
 
-### Installation and setup.
+## Installation and setup.
 
 #### 1st step.
 
@@ -79,13 +83,13 @@ Download this entire git repo by clicking `code > Download Zip`.
 
 After download complete. Extract the file.
 
-#### 3rd step
+#### 3rd step.
 
-After extracting, open extracted folder and click in the place of the folder path. Type `cmd` and press `Enter`.
+After extracting, open extracted folder and click in the place of the folder path. Type `cmd` and hit `Enter`.
 
 ![ScreenShot](screenshot/1623438770968.png)
 
-In that same cmd prompt, type `pip install -r requirement.txt` and hit `Enter`. Then wait for the completion.
+In that same cmd prompt, type `pip install -r requirements.txt` and hit `Enter`. Then wait for the completion.
 
 ![ScreenShot](screenshot/install.png)
 
