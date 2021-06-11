@@ -67,4 +67,4 @@ https://www.python.org/
 
 During installation click, add python to the path. This is an essential part of python installation.
 
-[![](python install)](https://i.ibb.co/F0nR5g8/0001-add-Python-to-Path.png)
+![ScreenShot](https://raw.githubusercontent.com/mdshemul48/bulk_search_script_for_circle_ftp/main/screenshot/add_Python_to_Path.png)
