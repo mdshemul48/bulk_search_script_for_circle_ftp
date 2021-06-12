@@ -136,6 +136,8 @@ Then hit Enter.
 
 After the done message, you will found a new file in the directory called `search_result.txt`.
 
+![ScreenShot](screenshot/done.png)
+
 In that file, you will get the movie's search results with download links if that's already available on our server.
 
 That's it, thank you. :P
