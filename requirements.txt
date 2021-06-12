@@ -1,2 +1,3 @@
 guessit
 bs4
+requests
