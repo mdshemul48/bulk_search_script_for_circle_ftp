@@ -4,7 +4,7 @@ from difflib import SequenceMatcher, get_close_matches
 from guessit import guessit
 
 
-def search_movie(movie_name: str, movie_year: str):
+def search_movie(movie_name: str, movie_year: int):
     # this will request a page with movie title and scrap that page.
     search = requests.get(f"http://circleftp.net", params={"s": movie_name})
 
@@ -22,10 +22,18 @@ def search_movie(movie_name: str, movie_year: str):
     found = False
 
     for article in all_article:
+
         # getting movie name and link from html document.
         found_name = article.find("h3", class_="entry-title").text.strip()
         link = article.find("h3", class_="entry-title").find("a").get("href")
 
+        # getting direct download for the movie.
+        try:
+            direct_download_link = article.find("a", class_="downloadbtn").get(
+                "download"
+            )
+        except:
+            direct_download_link = ""
         # extacting movie name and year from full title.
         try:
             title = guessit(found_name)
@@ -44,11 +52,13 @@ def search_movie(movie_name: str, movie_year: str):
             # if both movie title ratio match more then 70% and also year are same..
             # thats means movie already avaliable in server. found = true else movie not available in server.
             if match_ratio >= 70:
+
                 if title_year == movie_year:
                     found = True
             search_result[f"{title_name.lower()} {title_year}"] = {
                 "title": found_name,
                 "link": link,
+                "direct_download_link": direct_download_link,
             }
         except:
             pass
@@ -63,3 +73,7 @@ def search_movie(movie_name: str, movie_year: str):
         data.append(final_result)
 
     return {"found": found, "search_result": data}
+
+
+if __name__ == "__main__":
+    print(search_movie("Kick", 2014))
