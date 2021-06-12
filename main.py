@@ -44,7 +44,7 @@ class log_the_search_result:
     def __init__(self) -> None:
         # creating output file
         self.output = open("search_output.txt", "w")
-        self.output.write("script for searching movie in circleftp.net\n")
+        self.output.write("script for searching movies in circleftp.net\n")
         self.output.write("Created By MD. Shimul. ;)\n")
         self.output.write("---------------------------------\n")
 
@@ -65,8 +65,12 @@ class log_the_search_result:
         for movie in result:
             title = movie["title"]
             link = movie["link"]
+            direct_download_link = movie["direct_download_link"]
             self.output.write(f"+---{title}\n")
-            self.output.write(f"|   \---{link}\n|\n")
+            self.output.write(f"|   \---{link}\n")
+            if len(direct_download_link) > 0:
+                self.output.write(f"|      \---{direct_download_link}\n|\n")
+
         self.output.write("|\n")
 
     def save_file(self):
