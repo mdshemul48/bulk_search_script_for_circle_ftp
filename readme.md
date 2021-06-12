@@ -120,7 +120,7 @@ Installation is done!
 
 To use it, you have to create a text file without space in the name. In that text file, write the movie's title and year that you want to search.
 
-![ScreenShot](screenshot\movies_name.png)
+![ScreenShot](screenshot/movies_name.png)
 
 Open the cmd in this folder and type the command below.
 
@@ -132,7 +132,7 @@ F:\....\search movie>py main.py file_name_that_you_created.txt
 
 Then hit Enter.
 
-![ScreenShot](screenshot\commandToRun.png)
+![ScreenShot](screenshot/commandToRun.png)
 
 After the done message, you will found a new file in the directory called `search_result.txt`.
 
