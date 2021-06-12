@@ -69,6 +69,7 @@ class log_the_search_result:
             self.output.write(f"+---{title}\n")
             self.output.write(f"|   \---{link}\n")
             if len(direct_download_link) > 0:
+                self.output.write("|      |")
                 self.output.write(f"|      \---{direct_download_link}\n|\n")
 
         self.output.write("|\n")
