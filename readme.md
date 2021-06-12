@@ -47,10 +47,6 @@ Movie: Delhi Belly 2011 1080p NF WEB-DL x264 AVC Dual Audio [Hindi DD 5.1 + Engl
 |   \---http://circleftp.net/cn/delhi-belly-2011-hindi-720p-hdrip-x264-aac/
 |      \---http://index1.circleftp.net/FILE/Hindi%20Movies/2011/Delhi%20Belly%20%282011%29%20Hindi%20720p%20HDRip%20x264%20AAC/Delhi%20Belly%20%282011%29%20Hindi%20720p%20HDRip%20x264%20AAC.mp4
 |
-+---Delhi Belly � 2011
-|   \---http://circleftp.net/cn/delhi-belly-2011/
-|      \---http://index1.circleftp.net/FILE/Hindi%20Movies/2012/Delhi%20Belly%20-%202011/Delhi%20Belly.avi
-|
 +---Blitz (2011) 1080p 10bit Bluray [Dual Audio] [Hindi+English] x265 ESubs
 |   \---http://circleftp.net/cn/blitz-2011-1080p-10bit-bluray-dual-audio-hindienglish-x265-esubs/
 |      \---http://index.circleftp.net/FILE/English%20%26%20Foreign%20Dubbed%20Movies/2011/Blitz%20%282011%29%201080p%2010bit%20Bluray%20%5BDual%20Audio%5D%20%5BHindi%2BEnglish%5D%20x265%20ESubs/Blitz%20%282011%29%201080p%2010bit%20Bluray%20%5BDual%20Audio%5D%20%5BHindi%2BEnglish%5D%20x265%20ESubs.mkv
