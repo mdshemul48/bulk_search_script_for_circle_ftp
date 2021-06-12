@@ -27,37 +27,43 @@ You will get all the search results and links that match with your entered movie
 `output.txt`
 
 ```
+---------------------
 Movie: Go Goa Gone 2013 1080p Gplay WEB-DL DDP 5.1 x264 already exist in the server..
 +---------
 |
 +---Go Goa Gone (2013) HDRip
-| \---http://circleftp.net/cn/go-goa-gone-2013-hdrip/
+|   \---http://circleftp.net/cn/go-goa-gone-2013-hdrip/
+|      \---http://index1.circleftp.net/FILE/Hindi%20Movies/2013/Go%20Goa%20Gone%20%282013%29%20HDRip%20%5BOpenTsubasa%5D/Go%20Goa%20Gone%20%282013%29%20HDRip%20%5BOpenTsubasa%5D.mp4
 |
 +---Mickey Mouse Mixed-Up Adventure (TV Series 2017-) Anime
-| \---http://circleftp.net/cn/mickey-mouse-mixed-up-adventure-tv-series-2017-anime/
-|
+|   \---http://circleftp.net/cn/mickey-mouse-mixed-up-adventure-tv-series-2017-anime/
 +---Taarak Mehta Ka Ooltah Chashmah (TV Series 2008-) (001-2900Episodes)
-| \---http://circleftp.net/cn/taarak-mehta-ka-ooltah-chashmah-tv-series-2008-001-2900episodes/
-|
+|   \---http://circleftp.net/cn/taarak-mehta-ka-ooltah-chashmah-tv-series-2008-001-2900episodes/
 |
 
-Movie: What.the.Fish.2013.1080p.NF.WEB-DL.DDP5.1.H.264 already exist in the server..
+---------------------
+Movie: Delhi Belly 2011 1080p NF WEB-DL x264 AVC Dual Audio [Hindi DD 5.1 + English DDP 5.1] ESubs already exist in the server..
 +---------
 |
-+---What The Fish (2013)
-| \---http://circleftp.net/cn/what-the-fish-2013/
++---Delhi Belly (2011) Hindi 720p HDRip x264 AAC
+|   \---http://circleftp.net/cn/delhi-belly-2011-hindi-720p-hdrip-x264-aac/
+|      \---http://index1.circleftp.net/FILE/Hindi%20Movies/2011/Delhi%20Belly%20%282011%29%20Hindi%20720p%20HDRip%20x264%20AAC/Delhi%20Belly%20%282011%29%20Hindi%20720p%20HDRip%20x264%20AAC.mp4
 |
-+---The Spy (TV Mini-Series 2019)
-| \---http://circleftp.net/cn/the-spy-tv-mini-series-2019/
++---Delhi Belly – 2011
+|   \---http://circleftp.net/cn/delhi-belly-2011/
+|      \---http://index1.circleftp.net/FILE/Hindi%20Movies/2012/Delhi%20Belly%20-%202011/Delhi%20Belly.avi
 |
-+---Deadliest Catch (TV Series 2005-)
-| \---http://circleftp.net/cn/deadliest-catch-tv-series-2005/
++---Blitz (2011) 1080p 10bit Bluray [Dual Audio] [Hindi+English] x265 ESubs
+|   \---http://circleftp.net/cn/blitz-2011-1080p-10bit-bluray-dual-audio-hindienglish-x265-esubs/
+|      \---http://index.circleftp.net/FILE/English%20%26%20Foreign%20Dubbed%20Movies/2011/Blitz%20%282011%29%201080p%2010bit%20Bluray%20%5BDual%20Audio%5D%20%5BHindi%2BEnglish%5D%20x265%20ESubs/Blitz%20%282011%29%201080p%2010bit%20Bluray%20%5BDual%20Audio%5D%20%5BHindi%2BEnglish%5D%20x265%20ESubs.mkv
 |
-+---Daniel Tiger�s Neighborhood (TV Series 2012-)
-| \---http://circleftp.net/cn/daniel-tigers-neighborhood-tv-series-2012/
++---Super Bear (2019) 1080p WEBRip [Dual Audio] [Hindi+Turkish]
+|   \---http://circleftp.net/cn/super-bear-2019-1080p-webrip-dual-audio-hinditurkish/
+|      \---http://ftp5.circleftp.net/FILE/Animation%20Dubbed%20Movies/Super%20Bear%20%282019%29%201080p%20WEBRip%20%5BDual%20Audio%5D%20%5BHindi%2BTurkish%5D/Super%20Bear%20%282019%29%201080p%20WEBRip%20%5BDual%20Audio%5D%20%5BHindi%2BTurkish%5D%20.mkv
 |
-+---Tyrant (TV Series 2014-2016)
-| \---http://circleftp.net/cn/tyrant-tv-series-2014-2016/
++---Mine (2016) 1080p BluRay x264
+|   \---http://circleftp.net/cn/mine-2016-1080p-bluray-x264/
+|      \---http://index.circleftp.net/FILE/English%20Movies/2016/Mine.2016.1080p.BluRay.x264-%5BYTS.AG%5D/Mine.2016.1080p.BluRay.x264-%5BYTS.AG%5D.mp4
 |
 |
 ```
