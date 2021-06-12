@@ -25,47 +25,62 @@ You will get all the search results and links that match with your entered movie
 `output.txt`
 
 ```
+
 ---------------------
-Movie: Go Goa Gone 2013 1080p Gplay WEB-DL DDP 5.1 x264 already exist in the server..
+Movie: The Misfits (2021) already exist in the server..
 +---------
 |
-+---Go Goa Gone (2013) HDRip
-|   \---http://circleftp.net/cn/go-goa-gone-2013-hdrip/
-|      \---http://index1.circleftp.net/FILE/Hindi%20Movies/2013/Go%20Goa%20Gone%20%282013%29%20HDRip%20%5BOpenTsubasa%5D/Go%20Goa%20Gone%20%282013%29%20HDRip%20%5BOpenTsubasa%5D.mp4
++---The Misfits (2021) 1080p HDRip x264
+|   \---http://circleftp.net/cn/the-misfits-2021-1080p-hdrip-x264/
+|      |
+|      \---http://index.circleftp.net/FILE/..../The%20Misfits%20%282021%29%201080p%20HDRip%20x264.mp4
 |
-+---Mickey Mouse Mixed-Up Adventure (TV Series 2017-) Anime
-|   \---http://circleftp.net/cn/mickey-mouse-mixed-up-adventure-tv-series-2017-anime/
-+---Taarak Mehta Ka Ooltah Chashmah (TV Series 2008-) (001-2900Episodes)
-|   \---http://circleftp.net/cn/taarak-mehta-ka-ooltah-chashmah-tv-series-2008-001-2900episodes/
++---The Misfits (1961) 1080p BluRay x265
+|   \---http://circleftp.net/cn/the-misfits-1961-1080p-bluray-x265/
+|      |
+|      \---http://index.circleftp.net/FILE/English%20Movies/../The.Misfits.1961.1080p.BluRay.x265-RARBG.mp4
+|
++---Love.Everlasting.2016.HDRip.XviD.AC3-EVO.avi
+|   \---http://circleftp.net/cn/love-everlasting-2016-hdrip-xvid-ac3-evo-avi/
 |
 
 ---------------------
-Movie: Delhi Belly 2011 1080p NF WEB-DL x264 AVC Dual Audio [Hindi DD 5.1 + English DDP 5.1] ESubs already exist in the server..
+Movie: Ardha Shathabdham (2021) Telugu 1080p WEB-DL ESub already exist in the server..
 +---------
 |
-+---Delhi Belly (2011) Hindi 720p HDRip x264 AAC
-|   \---http://circleftp.net/cn/delhi-belly-2011-hindi-720p-hdrip-x264-aac/
-|      \---http://index1.circleftp.net/FILE/Hindi%20Movies/2011/Delhi%20Belly%20%282011%29%20Hindi%20720p%20HDRip%20x264%20AAC/Delhi%20Belly%20%282011%29%20Hindi%20720p%20HDRip%20x264%20AAC.mp4
-|
-+---Blitz (2011) 1080p 10bit Bluray [Dual Audio] [Hindi+English] x265 ESubs
-|   \---http://circleftp.net/cn/blitz-2011-1080p-10bit-bluray-dual-audio-hindienglish-x265-esubs/
-|      \---http://index.circleftp.net/FILE/English%20%26%20Foreign%20Dubbed%20Movies/2011/Blitz%20%282011%29%201080p%2010bit%20Bluray%20%5BDual%20Audio%5D%20%5BHindi%2BEnglish%5D%20x265%20ESubs/Blitz%20%282011%29%201080p%2010bit%20Bluray%20%5BDual%20Audio%5D%20%5BHindi%2BEnglish%5D%20x265%20ESubs.mkv
-|
-+---Super Bear (2019) 1080p WEBRip [Dual Audio] [Hindi+Turkish]
-|   \---http://circleftp.net/cn/super-bear-2019-1080p-webrip-dual-audio-hinditurkish/
-|      \---http://ftp5.circleftp.net/FILE/Animation%20Dubbed%20Movies/Super%20Bear%20%282019%29%201080p%20WEBRip%20%5BDual%20Audio%5D%20%5BHindi%2BTurkish%5D/Super%20Bear%20%282019%29%201080p%20WEBRip%20%5BDual%20Audio%5D%20%5BHindi%2BTurkish%5D%20.mkv
-|
-+---Mine (2016) 1080p BluRay x264
-|   \---http://circleftp.net/cn/mine-2016-1080p-bluray-x264/
-|      \---http://index.circleftp.net/FILE/English%20Movies/2016/Mine.2016.1080p.BluRay.x264-%5BYTS.AG%5D/Mine.2016.1080p.BluRay.x264-%5BYTS.AG%5D.mp4
++---Ardha Shathabdham (2021) Telugu 1080p WEB-DL ESub
+|   \---http://circleftp.net/cn/ardha-shathabdham-2021-telugu-1080p-web-dl-esub/
+|      |
+|      \---http://index1.circleftp.net/FILE/Tamil%20Telugu%20%26%20Others/..../Ardha%20Shathabdham%20%282021%29%20Telugu%201080p%20WEB-DL%20ESub.mkv
 |
 |
 
 ---------------------
-Movie: Say Salaam India 2007 not Found in the server..
+Movie: Bhavesh Joshi Superhero 2018 1080p NF WEB-DL AVC DDP 5.1 MSubs already exist in the server..
 +---------
 |
++---Bhavesh Joshi Superhero 2018 1080p NF WEB-DL AVC DDP 5.1 MSubs
+|   \---http://circleftp.net/cn/bhavesh-joshi-superhero-2018-1080p-nf-web-dl-avc-ddp-5-1-msubs/
+|      |
+|      \---http://index1.circleftp.net/FILE/../Bhavesh%20Joshi%20Superhero%202018%201080p%20NF%20WEB-DL%20AVC%20DDP%205.1%20MSubs.mkv
 |
+|
+
+---------------------
+Movie: Wish Dragon (2021) 1080p WEBRip x264 already exist in the server..
++---------
+|
++---Wish Dragon (2021) 1080p WEBRip x264
+|   \---http://circleftp.net/cn/wish-dragon-2021-1080p-webrip-x264/
+|      |
+|      \---http://ftp5.circleftp.net/FILE/.../Wish%20Dragon%20%282021%29%201080p%20WEBRip%20x264.mp4
+|
++---NCIS New Orleans (TV Series 2014-)
+|   \---http://circleftp.net/cn/ncis-new-orleans-tv-series-2014/
++---Are You Afraid of the Dark (TV Series 1990-2000)
+|   \---http://circleftp.net/cn/are-you-afraid-of-the-dark-tv-series-1990-2000/
+|
+
 ```
 
 ## Installation and setup.
@@ -100,3 +115,27 @@ In that cmd prompt, type `pip install -r requirements.txt` and hit `Enter`. Then
 ![ScreenShot](screenshot/install.png)
 
 Installation is done!
+
+## How to use it?
+
+To use it, you have to create a text file without space in the name. In that text file, write the movie's title and year that you want to search.
+
+![ScreenShot](screenshot\movies_name.png)
+
+Open the cmd in this folder and type the command below.
+
+```
+F:\....\search movie>py main.py file_name_that_you_created.txt
+```
+
+(In my case, I created `test_input.txt`)
+
+Then hit Enter.
+
+![ScreenShot](screenshot\commandToRun.png)
+
+After the done message, you will found a new file in the directory called `search_result.txt`.
+
+In that file, you will get the movie's search results with download links if that's already available on our server.
+
+That's it, thank you. :P
