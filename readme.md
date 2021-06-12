@@ -35,11 +35,7 @@ Movie: Go Goa Gone 2013 1080p Gplay WEB-DL DDP 5.1 x264 already exist in the ser
 |   \---http://circleftp.net/cn/go-goa-gone-2013-hdrip/
 |      \---http://index1.circleftp.net/FILE/Hindi%20Movies/2013/Go%20Goa%20Gone%20%282013%29%20HDRip%20%5BOpenTsubasa%5D/Go%20Goa%20Gone%20%282013%29%20HDRip%20%5BOpenTsubasa%5D.mp4
 |
-+---Mickey Mouse Mixed-Up Adventure (TV Series 2017-) Anime
-|   \---http://circleftp.net/cn/mickey-mouse-mixed-up-adventure-tv-series-2017-anime/
-+---Taarak Mehta Ka Ooltah Chashmah (TV Series 2008-) (001-2900Episodes)
-|   \---http://circleftp.net/cn/taarak-mehta-ka-ooltah-chashmah-tv-series-2008-001-2900episodes/
-|
+
 
 ---------------------
 Movie: Delhi Belly 2011 1080p NF WEB-DL x264 AVC Dual Audio [Hindi DD 5.1 + English DDP 5.1] ESubs already exist in the server..
@@ -48,10 +44,6 @@ Movie: Delhi Belly 2011 1080p NF WEB-DL x264 AVC Dual Audio [Hindi DD 5.1 + Engl
 +---Delhi Belly (2011) Hindi 720p HDRip x264 AAC
 |   \---http://circleftp.net/cn/delhi-belly-2011-hindi-720p-hdrip-x264-aac/
 |      \---http://index1.circleftp.net/FILE/Hindi%20Movies/2011/Delhi%20Belly%20%282011%29%20Hindi%20720p%20HDRip%20x264%20AAC/Delhi%20Belly%20%282011%29%20Hindi%20720p%20HDRip%20x264%20AAC.mp4
-|
-+---Delhi Belly – 2011
-|   \---http://circleftp.net/cn/delhi-belly-2011/
-|      \---http://index1.circleftp.net/FILE/Hindi%20Movies/2012/Delhi%20Belly%20-%202011/Delhi%20Belly.avi
 |
 +---Blitz (2011) 1080p 10bit Bluray [Dual Audio] [Hindi+English] x265 ESubs
 |   \---http://circleftp.net/cn/blitz-2011-1080p-10bit-bluray-dual-audio-hindienglish-x265-esubs/
