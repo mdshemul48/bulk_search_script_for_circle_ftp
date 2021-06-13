@@ -2,6 +2,7 @@ import sys, os, re
 import time
 from search_engine import search_movie
 from guessit import guessit
+from datetime import datetime
 
 
 def read_command_args():
@@ -48,8 +49,13 @@ class movie_title_data:
 
 class log_the_search_result:
     def __init__(self) -> None:
+
+        # getting current time.
+        now = datetime.now()
+        formated_time = now.strftime("%I-%M%p %d.%m.%Y")
+
         # creating output file
-        self.output = open("search_output.txt", "w")
+        self.output = open(f"search_output {formated_time}.txt", "w")
         self.output.write("script for searching movies in circleftp.net\n")
         self.output.write("Created By MD. Shimul. ;)\n")
         self.output.write("---------------------------------\n")
