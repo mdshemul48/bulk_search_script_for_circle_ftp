@@ -20,9 +20,7 @@ def search_movie(movie_name: str, movie_year: int):
     search_result = []
     # found will be True when the movie name and year will be match to the searching movie.
     found = False
-
     for article in all_article:
-
         # getting movie name and link from html document.
         found_name = article.find("h3", class_="entry-title").text.strip()
         link = article.find("h3", class_="entry-title").find("a").get("href")
@@ -55,9 +53,9 @@ def search_movie(movie_name: str, movie_year: int):
                 if title_year == movie_year:
                     found = True
 
-            # if movie name didn't  match more then 20% then proccess will be stopped.
-            if match_ratio <= 25:
-                return
+            # if movie name didn't  match more then 50% or a series then proccess will be stopped.
+            if match_ratio <= 50 or "series" in found_name.lower():
+                continue
 
             search_result.append(
                 {
@@ -69,9 +67,8 @@ def search_movie(movie_name: str, movie_year: int):
 
         except:
             pass
-
     return {"found": found, "search_result": search_result}
 
 
 if __name__ == "__main__":
-    print(search_movie("hera pheri", 2000))
+    print(search_movie("Anand", 1971))
