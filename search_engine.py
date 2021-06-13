@@ -17,7 +17,7 @@ def search_movie(movie_name: str, movie_year: int):
     all_article = html_soup.find_all("article")
 
     # all movie will be added to search result obj.
-    search_result = {}
+    search_result = []
     # found will be True when the movie name and year will be match to the searching movie.
     found = False
 
@@ -52,28 +52,26 @@ def search_movie(movie_name: str, movie_year: int):
             # if both movie title ratio match more then 70% and also year are same..
             # thats means movie already avaliable in server. found = true else movie not available in server.
             if match_ratio >= 70:
-
                 if title_year == movie_year:
                     found = True
-            search_result[f"{title_name.lower()} {title_year}"] = {
-                "title": found_name,
-                "link": link,
-                "direct_download_link": direct_download_link,
-            }
+
+            # if movie name didn't  match more then 20% then proccess will be stopped.
+            if match_ratio <= 25:
+                return
+
+            search_result.append(
+                {
+                    "title": found_name,
+                    "link": link,
+                    "direct_download_link": direct_download_link,
+                }
+            )
+
         except:
             pass
 
-    searched_content = f"{movie_name.lower()} {movie_year}"
-
-    # this will show the those movies that title and year together matched more then 25%.
-    results = get_close_matches(searched_content, search_result, n=5, cutoff=0.25)
-    data = []
-    for item in results:
-        final_result = search_result[item]
-        data.append(final_result)
-
-    return {"found": found, "search_result": data}
+    return {"found": found, "search_result": search_result}
 
 
 if __name__ == "__main__":
-    print(search_movie("Kick", 2014))
+    print(search_movie("hera pheri", 2000))
