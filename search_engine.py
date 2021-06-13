@@ -67,6 +67,7 @@ def search_movie(movie_name: str, movie_year: int):
 
         except:
             pass
+
     return {"found": found, "search_result": search_result}
 
 

@@ -1,4 +1,4 @@
-import sys, os
+import sys, os, re
 import time
 from search_engine import search_movie
 from guessit import guessit
@@ -34,10 +34,16 @@ class movie_title_data:
         self.movie_data_obj = guessit(movie_name)
 
     def get_title(self):
-        return self.movie_data_obj["title"]
+        try:
+            return self.movie_data_obj["title"]
+        except KeyError:
+            return re.search(r"\D", self.movie_name)[0]
 
     def get_year(self):
-        return self.movie_data_obj["year"]
+        try:
+            return self.movie_data_obj["year"]
+        except KeyError:
+            return re.search(r"\d\d\d\d", self.movie_name)[0]
 
 
 class log_the_search_result:
@@ -90,12 +96,11 @@ def searcher(text_line: str, log):
         movie_title_info = movie_title_data(text_line)
         movie_title = movie_title_info.get_title()
         movie_year = movie_title_info.get_year()
-    except KeyError:
-        print(
-            f"{text_line} -----> didn't contain movie title or year.. maybe not both. :')"
-        )
+    except KeyError as err:
+        print(f"{text_line} -----> didn't contain movie {err}. :')")
         return
 
+    # from here starting search.
     print(f"searching: {text_line}..")
 
     # searching the movie and getting the result..
@@ -131,10 +136,8 @@ def main():
     for line in text_all_line_list:
         try:
             searcher(line, log)
-        except:
-            print(
-                f"{line} -----> didn't contain movie title or year.. maybe not both. :')"
-            )
+        except Exception as err:
+            print("Error: ", err)
 
     # this will save the search_result log file.
     log.save_file()
