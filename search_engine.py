@@ -54,7 +54,7 @@ def search_movie(movie_name: str, movie_year: int):
                     found = True
 
             # if movie name didn't  match more then 50% or a series then proccess will be stopped.
-            if match_ratio <= 50 or "series" in found_name.lower():
+            if "series" in found_name.lower():
                 continue
 
             search_result.append(
