@@ -3,6 +3,7 @@ import time
 from search_engine import search_movie
 from guessit import guessit
 from datetime import datetime
+from scan_folder_for_sub_files import get_all_the_sub_files
 
 
 def read_command_args():
@@ -132,10 +133,15 @@ def main():
     # this log will create another text file and log every result.
     log = log_the_search_result()
     # getting user input (text file path)
-    file_name = read_command_args()
+    try:
+
+        file_name = read_command_args()
+        text_all_line_list = red_text_file(file_name)
+    except:
+        folder_path_to_scan = input("No search files given. Please enter folder path: ")
+        text_all_line_list = get_all_the_sub_files(folder_path_to_scan)
 
     # getting all the line of the text as a list.
-    text_all_line_list = red_text_file(file_name)
 
     # this will process 1 by 1 movie to the searcher.
     # then searcher will extract and search the movie in our site.
